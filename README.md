@@ -1,3 +1,7 @@
+# to run with docker
+# sudo docker-compose -f docker-compose.override.yml build
+# sudo docker-compose -f docker-compose.override.yml up
+
 <img src="https://github.com/smart-village-solutions/smart-village-app-app/raw/master/smart-village-app-logo.png" width="150">
 
 # Smart Village App - Main-Server
