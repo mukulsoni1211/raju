@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class AddIndexesToEventRecordsAndFixedDates < ActiveRecord::Migration[6.1]
+class AddIndexesToEventRecordsAndFixedDates < ActiveRecord::Migration[5.2]
   def change
     # Indizes für die fixed_dates Tabelle
     add_index :fixed_dates, %i[dateable_type dateable_id date_start date_end],

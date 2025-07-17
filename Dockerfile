@@ -23,7 +23,7 @@ RUN curl -L https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VE
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock /app/
-RUN gem install bundler
+RUN gem install bundler  -v 2.4.22
 RUN bundle install
 
 COPY . /app
